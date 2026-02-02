@@ -1,0 +1,8 @@
+﻿CREATE TABLE Diagnosis (
+    DiagID INT PRIMARY KEY IDENTITY(1,1), 
+    DiagName NVARCHAR(50) NOT NULL,
+    PatName NVARCHAR(50) NOT NULL,
+    DiagnosisDetail NVARCHAR(100) NOT NULL, 
+    Medicine NVARCHAR(100) NOT NULL,
+    Symptom NVARCHAR(100) NOT NULL
+);
